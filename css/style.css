@@ -2,8 +2,6 @@
 *{
 	margin:0;
 	padding:0;
-	color:#aaa;
-	font-family:'Arial';
 	}
 
 /* Estilizando a nav */    
@@ -24,13 +22,17 @@
 .menu ul li{
 		width:150px;
 		float:left;
+		
 	}
 
 /* Estilizando os links */
 .menu a{
-	padding:15px;
+	padding:19px;
 	display:block;
 	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	color:#aaa;
 	background-color: #222;
 	text-align:center;
 	}
@@ -74,7 +76,7 @@ label[for='bt_menu']{
 	padding:5px;
 	background-color:#222;
 	color:#fff;
-	font-family:'Arial';
+	font-family:'Press Start 2P', cursive;;
 	text-align:center;
 	font-size:30px;
 	cursor:pointer;
