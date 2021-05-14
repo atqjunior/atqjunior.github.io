@@ -1,4 +1,7 @@
 /*Resetando os valores para 0 e deixando padrão*/
+*{
+    margin: 0;
+}
 
 /* Estilizando a nav */    
 .menu{
@@ -12,6 +15,7 @@
     list-style:none;	
 	position:relative;
 	margin-left:30px;
+    z-index: 2;
 }
 
 /* Estilizando cada item */    
@@ -134,7 +138,7 @@ label[for='bt_menu']:hover{
     width: 99vw -1;
     font-family: 'Press Start 2P', cursive;
     background-color: #ffdd4c;
-    background-image: url('/img/atqjunior.png');
+    background-image: url('/atqjunior.github.io/img/atqjunior.png');
     background-repeat: no-repeat;
     background-position-x: 155vh;
     background-position-y: 25px;
@@ -146,7 +150,7 @@ label[for='bt_menu']:hover{
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .text-cabecalho{
@@ -194,7 +198,7 @@ label[for='bt_menu']:hover{
     align-items: center;
     justify-content: center;
     background-color: #ffdd4c;
-    background-image: url('/img/trybe_logo.png');
+    background-image: url('/atqjunior.github.io/img/moeda.png');
     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +264,7 @@ label[for='bt_menu']:hover{
 .card:hover > .card-wrapper p{
     opacity: 1;
     visibility: visible;
-    font-size:
+    font-size: 15px;
 }
 
 footer{
