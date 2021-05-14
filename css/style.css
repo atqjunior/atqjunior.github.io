@@ -138,7 +138,7 @@ label[for='bt_menu']:hover{
     width: 99vw -1;
     font-family: 'Press Start 2P', cursive;
     background-color: #ffdd4c;
-    background-image: url('/atqjunior.github.io/img/atqjunior.png');
+    background-image: url('/img/atqjunior.png');
     background-repeat: no-repeat;
     background-position-x: 155vh;
     background-position-y: 25px;
@@ -198,7 +198,7 @@ label[for='bt_menu']:hover{
     align-items: center;
     justify-content: center;
     background-color: #ffdd4c;
-    background-image: url('/atqjunior.github.io/img/moeda.png');
+    background-image: url('/img/moeda.png');
     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat;
