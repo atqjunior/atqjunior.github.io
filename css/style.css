@@ -1,6 +1,7 @@
 /*Resetando os valores para 0 e deixando padrão*/
 *{
     margin: 1;
+    padding: 0;
 }
 
 /* Estilizando a nav */    
