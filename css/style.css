@@ -1,29 +1,31 @@
-/* Operador global , aqui reseto os epaçamentos e defino como padrão*/
-*{
-	margin:0;
-	padding:0;
-	}
+/*Resetando os valores para 0 e deixando padrão*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #1E1E1E
+}
 
 /* Estilizando a nav */    
 .menu{
-	width:100%;
+    width:100%;
 	height:50px;
 	background-color: #222;
-	}
+}
 
 /* Estilizando as listas */
 .menu>ul{
-	list-style:none;	
+    list-style:none;	
 	position:relative;
-	margin-left:50px;
-	}
+	margin-left:70px;
+}
 
 /* Estilizando cada item */    
 .menu ul li{
-		width:150px;
-		float:left;
-		
-	}
+    width:150px;
+    float:left;
+    
+}
 
 /* Estilizando os links */
 .menu a{
@@ -32,49 +34,50 @@
 	text-decoration: none;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 12px;
-	color:#aaa;
+	color:#ffd700;
 	background-color: #222;
 	text-align:center;
-	}
+    text-transform: uppercase;
+}
 
 /*Sumindo com os sub-itens*/
 .menu ul ul{
-	list-style:none;
+    list-style:none;
 	position:absolute;
 	visibility:hidden;
 	
-	}
+}
 
 /*Ao passar o mouse os sub-itens aparecem*/
 .menu ul li:hover ul{
-	visibility:visible;
-	}
+    visibility:visible;
+}
 
 /*Alterando a cor do fundo do item no momento do hover*/    
 .menu a:hover{
-	background-color:#f4f4f4;
+    background-color:#0077B5;
 	}
-
-/*Deixando os itens um abaixo do outro, no momento do hover*/
-.menu ul ul li{
-	float:none;
-	border-bottom: solid 1px #ccc;
+    
+    /*Deixando os itens um abaixo do outro, no momento do hover*/
+    .menu ul ul li{
+        float:none;
+        border-bottom: solid 1px #ccc;
 	}
-
+    
 /*Alterando a cor dos sub-itens*/    
 .menu ul ul li a{
-	background-color:#069;
-	}
+	background-color:#0077B5;
+}
 
 /*Deixando o checkbox e simbolo de menu oculto*/
 #bt_menu{
-	display: none;
+    display: none;
 	}
-
-/*Estilizando o botão menu*/    
-label[for='bt_menu']{
-	padding:5px;
-	background-color:#222;
+    
+    /*Estilizando o botão menu*/    
+    label[for='bt_menu']{
+        padding:5px;
+        background-color:#222;
 	color:#fff;
 	font-family:'Press Start 2P', cursive;;
 	text-align:center;
@@ -83,52 +86,100 @@ label[for='bt_menu']{
 	display:none;
 	width:50px;
 	height:50px;
-	}
+}
 
 label[for='bt_menu']:hover{
-	background-color:#f4f4f4;
-	color:#aaa;
-	}
+    background-color:#f4f4f4;
+	color:#0077B5;
+}
 
 @media (max-width: 800px) {
     .menu{
         margin-left:-100%;
         transition:all .4s;
         }
-
-    label[for='bt_menu']{
-        display:block;
+        
+        label[for='bt_menu']{
+            display:block;
         }
 
     .menu>ul{
         margin-left:0;
-        }
+    }
 
     .menu{
         margin-top:5px;
         }
-    
+        
     /*Alterando o direcionamento do itens do menu*/    
     .menu ul li{
         width:100%;
         float:none;
-        }
-
+    }
+    
     .menu ul ul{
-        position:static;
+        position:absolute;
         overflow:hidden;
         max-height:0;
         transition:all .4s;
-        }
+    }
     
     /*Ao passar o mouse os subitens aparecem*/    
     .menu ul li:hover ul{
         height:auto;
         max-height:200px;
         transition:all .4s;
-        }
-
+    }
+    
     #bt_menu:checked ~ .menu{
         margin-left:0;
-        }
+    }
+}
+
+.header-container{
+    height: 50vh;
+    width: 500vw;
+    background-color: #ffdd4c;
+    background-image: url('/img/atqjunior.png');
+    background-repeat: no-repeat;
+    background-position-x: 155vh;
+    background-position-y: 25px;
+    background-size: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    z-index: -1;
+}
+
+.text-cabecalho{
+    height: 30px;
+    width: 600px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 5px;
+}
+
+#text-job{
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.social-media{
+    margin: 3px;
+    display: flex;
+    margin-top: 1rem;
+
+
+}
+
+#foto-perfil{
+    width: 255px;
+    height: 255px;
+    float: right;
+    margin-top: 2rem;
 }
