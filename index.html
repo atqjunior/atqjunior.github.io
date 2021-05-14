@@ -12,35 +12,106 @@
 </head>
 
 <body>
-
-    <input type="checkbox" id="bt_menu">
-    <label class="checkbox" for="bt_menu">&#9776;</label>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projetos</a>
-                <ul>
-                    <li><a href="#">Aguarde...</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-    <header class="header-container">
+    <section>
+        <input type="checkbox" id="bt_menu">
+        <label class="checkbox" for="bt_menu">&#9776;</label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a>
+                    <ul>
+                        <li><a href="#">Aguarde...</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <header class="header-container" id="sobre">
 
         <h1 class="text-cabecalho" id="text-name">Amaury Queiroz Jr</h1>
         <h2 class="text-cabecalho" id="text-job">Front-end Developer</h2>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/atqjunior" target="_blank"><img
                     src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                    target="_blank"></a>
+                    target="_blank" alt="Logo do Linkedin" title="Logo do Linkedin"></a>
             <a href="https://github.com/atqjunior" target="_blank"><img
                     src="https://img.shields.io/badge/-Github-%23E4405F?style=for-the-badge&logo=github&logoColor=white"
-                    target="_blank"></a>
+                    target="_blank" alt="Logo do Github" title="Logo do Github"></a>
         </div>
     </header>
-    <main class="container">
+    <section>
+        <h1>Quem sou eu?</h1>
+        <section>
+            <p>Sou de Paramoti interior do Ceará, tenho 26 anos, atualmente moro em Fortaleza/Ce. <br /> Estou em busca
+                de
+                me
+                tornar um desenvolvedor full stack, sou aficionado por tecnologia, adoro programar, aprender novas
+                linguagens e ler no meu tempo livre.<br />
+                Também sou designer e faço algumas artes para meu portfólio pessoal.
+            </p>
+        </section>
+        <section>
+            <h2 id="skills">Minhas Softs e Hards Skills:</h2>
+
+            <ul>
+                <li>Unix</li>
+                <li>Bach</li>
+                <li>Zsh</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Colaboração</li>
+                <li>Senso de Dono</li>
+                <li>Empatia</li>
+            </ul>
+        </section>
+        <section>
+            <div id="card-github">
+                <span>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api?username=atqjunior&show_icons=true&include_all_commits=true&count_private=true&theme=slateorange&icon_color=#268bd2&title_color=#268bd2&custom_title=Amaury Junior GitHub Stats" />
+                </span>
+                <span>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=atqjunior&layout=default&&langs_count=5&theme=slateorange&icon_color=#268bd2&title_color=#268bd2&custom_title=Most Used Languages" />
+                </span>
+            </div>
+        </section>
+        <section>
+            <h2><strong>MEUS INTERESSES PESSOAIS E PROFISSIONAIS:</strong></h2>
+            <p>
+                👩‍💻 Sou estudate de desenvolvimento web na trybe<br>
+                💻 Sou aficionado por tecnologia, por este motivo estou sempre estudando e buscando novos
+                conhecimentos.<br>
+                💼 Quero trabalhar na <em>Ambev Tech 🍻 ou Superlogica Tecnologias 💪<em>.
+
+            </p>
+        </section>
+        <section>
+            <h2>MEUS HOBBIES E CURIOSIDADES:</h2>
+
+            <ul>
+                <li>Tocar violão, cajon, flauta, bateria;</li>
+                <li>Ler livros, escutar uma boa música;</li>
+                <li>Amo estar com família e amigos;</li>
+                <li>Jogar CALL OF DUTY, Fortnite;</li>
+                <li>Sou fotogáfo, curto muito registrar os momentos para rever no futuro!</li>
+                <li>Sou anfitrião de pets junto com minha esposa na <a
+                        href="https://www.instagram.com/ingred.doghero/">@ingred.doghero</a></li>
+            </ul>
+        </section>
+        <section>
+            <p>💬 Fique a vontade para me chamar, ficarei muito feliz em poder ajudar;<br>
+                📫 Se quiser pode enviar um email para <a href="mailto:amaury" title="">amaury.tqj@gmail.com</a>.<br> 📝
+                Veja
+                meu <a href="https://https://www.linkedin.com/in/atqjunior/" target="_blank">Linkedin</a>
+                para
+                mais
+                informações.
+            </p>
+        </section>
+    </section>
+    <main class="container" id="projetos">
 
         <div class="card-container">
             <div class="card">
@@ -50,8 +121,10 @@
                 </div>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae quam
-                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit officia
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae
+                quam
+                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit
+                officia
                 non dolore quaerat soluta hic!
             </div>
         </div>
@@ -64,8 +137,10 @@
                 </div>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae quam
-                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit officia
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae
+                quam
+                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit
+                officia
                 non dolore quaerat soluta hic!
             </div>
         </div>
@@ -78,19 +153,20 @@
                 </div>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae quam
-                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit officia
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates consectetur repudiandae
+                quam
+                reprehenderit minus aperiam, voluptatum quisquam facere laudantium tempore unde sequi impedit
+                officia
                 non dolore quaerat soluta hic!
             </div>
         </div>
     </main>
+    <aside>
+        <p>#publi</p>
+    </aside>
     <footer class="footer">
         &copy; Feito por Amaury Queiroz Jr
     </footer>
-
-
-
-
 </body>
 
 </html>
